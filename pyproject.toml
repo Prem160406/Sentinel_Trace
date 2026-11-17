@@ -48,3 +48,6 @@ ignore = [
   "B008",  # FastAPI's Depends/File/Form idiom is a function call in a default
   "B905",  # zip strict= would be noise on same-length coordinate arrays
 ]
+
+[tool.vercel]
+entrypoint = "app.main:app"
